@@ -28,7 +28,7 @@ In Task 3 the Resnet18 Model for Tiny ImageNet dataset is augmented using two CU
 1)	Adding the summation of CUBS1 and CUBS2 modules after the residual block (CUBS-ResNet-1)
 2)	Adding the CUBS1 module after the residual block (CUBS-ResNet-2)
 3)	Adding the CUBS2 module after the residual block (CUBS-ResNet-3)
-After training each augmented model on the Tiny ImageNet dataset, the obtained classification accuracies were 38.26%, 44.03%, and 43.62% respectively. Although not by much, it is shown here that CUBS-ResNet-2 performed the best, about on par with the base ResNet18 model.
+After training each augmented model on the Tiny ImageNet dataset, the obtained classification accuracies were 38.26%, 46.03%, and 43.62% respectively. Although not by much, it is shown here that CUBS-ResNet-2 performed the best, about on par with the base ResNet18 model.
 
 # Task 4
 In task 4, the goal is to use the best performing augmented CUBS ResNet architecture from task 3 to do image retrieval. The image retrieval task is to compute the similarity of a query image against a collection of other images, and retrieve the most similar one(s). It was determined that the second custom CUBS ResNet architecture (CUBS-ResNet-2) performed the highest in terms of classification accuracy in task 3, so that was the starting point for task 4. 
